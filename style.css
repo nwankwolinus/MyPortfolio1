@@ -1,0 +1,221 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height:100%;
+}
+header{
+    display: flexbox;
+    height: 300px;
+    background-color: brown;
+    width: 100%;
+}
+#h1-p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#h1-p p{
+    text-align: center;
+}
+
+#item{
+    display: flexbox;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#navbar{
+    float: inline-end;
+    margin-top: 15px;
+    margin-left: 55%;
+}
+#navbar ul li{
+    display: inline;
+    margin: 20px;
+    font-size: larger;
+}
+#navbarlogo{
+    display:flex;
+    width: 100%;
+}
+
+#navbar a:hover{
+    background-color: rgb(163, 163, 145);
+    margin: 5px;
+}
+a:active {
+    background-color: yellow;
+  }
+.about{
+    display:flexbox;
+    height: auto;
+    background-color: rgb(187, 172, 172);
+}
+#profile-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:brown;
+    padding: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
+}
+#profile-picture img{
+    display:flexbox;
+    border: 3px solid  #df9019;
+    border-radius: 20px;
+}
+#profile-picture p{
+    text-align: center;
+}
+#wrap1{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: brown;
+}
+#career-objective{
+    display:flexbox;
+    flex-basis:600px;
+    margin:10px;
+    flex-grow: 1;
+    text-align: justify;
+    background-color: rgb(198, 185, 209);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+#career-objective h3{
+    text-align: center;
+    margin-top: 10px;
+}
+#career-objective p{
+    margin:10px;
+}
+#work-history{
+    display:flexbox;
+    flex-grow:1;
+    flex-basis:600px;
+    margin:10px;
+    background-color: rgb(198, 185, 209);
+    height:auto;
+    line-height: 1.3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+#work-history h3{
+    display: flexbox;
+    text-align:center;
+    margin-top: 10px;
+}
+#jobs {
+    display: inline-flexbox;
+    flex-direction:row-reverse;
+    flex-grow: 1;
+    align-items:normal;
+}
+#job1, #job2, #job3, #job4{
+    display: flexbox;
+}
+#job1 h4, #job2 h4, #job3 h4, #job4 h4{
+    text-align:center;
+    margin: 10px 0 10px 0;
+    font-size:large;
+    text-decoration: underline;
+}
+#work-history ul{
+    list-style:inside;
+} 
+#work-history ul li{
+    list-style:inside;
+} 
+
+#Institutions{
+    display:flexbox;
+    flex-grow: 1;
+    flex-basis:600px;
+    margin:10px;
+    background-color: rgb(198, 185, 209);
+}
+#paragraph3 ul li{
+    list-style:inside;
+
+}
+#Institutions h3{
+    text-align: centre;
+}
+.inline1{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:fit-content;
+    justify-content:flex-start;
+    margin-bottom:5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.inline2{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:fit-content;
+    justify-content:flex-start;
+    margin-bottom:5px;
+    margin-left: 10px;
+}
+.inline3{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:fit-content;
+    justify-content:flex-start;
+    margin-bottom:5px;
+    margin-left: 10px;
+}
+.inline4{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:fit-content;
+    justify-content:flex-start;
+    margin-bottom:30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+}
+#block1{
+    display:flexbox;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex-shrink: 1;
+}
+#block2{
+    display:flexbox;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex-shrink: 1;
+}
+#block3{
+    display:flexbox;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex-shrink: 1;
+}
+#block4{
+    display:flexbox;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex-shrink: 1;
+}
+#cont-form{
+    display: flexbox;
+}
+#cont-header{
+    text-align: center;
+}
